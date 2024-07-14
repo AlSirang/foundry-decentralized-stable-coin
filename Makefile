@@ -44,6 +44,6 @@ ifeq ($(findstring --network sepolia, $(ARGS)), --network sepolia)
 endif
 
 deploy:
-	@forge script script/DeployDecentralizedStableCoin.s.sol:DeployDecentralizedStableCoin $(NETWORK_ARGS)
+	@forge script script/DeployDSC.s.sol:DeployDSC $(NETWORK_ARGS)
 
 
